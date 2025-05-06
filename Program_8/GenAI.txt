@@ -1,0 +1,57 @@
+Karan Singh, Assistant Professor of Operations Research
+Principles of Generative AI
+A Technical Introduction
+Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial
+intelligence algorithms capable of producing novel content — in varied formats such as text,
+audio, video, pictures, and code — based on user prompts. Recent advances in machine
+learning (ML), massive datasets, and substantial increases in computing power have propelled
+such tools to human-level performance on academic and professional benchmarks , 1
+comparable to the ninetieth percentile on the SAT and the bar exam.
+This rapid progress has led many to to believe that the metamorphosis of these technologies 2
+from research-grade demos to accessible and easy-to-use production-grade goods and
+services carries the potential to supercharge business processes and operations while enabling
+entirely new deliverables heretofore rendered infeasible by economic or technological factors. It
+took OpenAI’s ChatGPT, a conversational web app based on a generative (multimodal)
+language model, about five days to reach one million users (compared to 2.5 months for 3
+Instagram). On the business side, the Economist reports that the number of jobs mentioning AIrelated skills quadrupled from 2022 to 2023. This enthusiasm has not gone unmet by investors.
+Generative AI startups reportedly raised 600% more capital in 2022 than in 2020 . 4
+1
+Figure 1: A taxonomy of GenAI-related disciplines.
+Karan Singh, Assistant Professor of Operations Research
+Purpose and Scope
+What are these new-era AI technologies? How do they function? What principles do they
+operate on? What makes them different than already-hyped-up conventional machine learning
+(ML) models? For what tasks is this class of technology most impactful? What future advances
+might one look forward to? These are the questions this report attempts to shed some light on.
+The report will also tease out how this understanding foundationally informs the best uses (and
+misuses) of GenAI in applied contexts.
+A word of disclaimer: this gradient of topics also means that, while the initial sections deal with
+factual, if somewhat simplified, nuts-and-bolt workings of such models, the later sections delve
+into hopefully reasonable, but in a manner that only time may attest to, extrapolations and
+speculations, as necessitated by the developing nature of this technology and its current phase
+in the technology adoption cycle.
+While generative AI models come in many different shapes, utilizing varied statistical and
+computational techniques to target various modalities, ranging from code and text to audio and
+video, this report focuses almost exclusively on large language models (LLMs) capable of
+generating novel text from textual prompts. This choice is partly due to the substantial lead
+LLMs have in driving the overall usage of generative AI models and partly due to the centrality 5
+of language in formulating and addressing commonplace information-processing tasks. That
+said, image- and code-based GenAI models have already witnessed successful commercial
+product deployment, for example, by Adobe for creating visual content and by Github as a
+programming assistance tool.
+2
+Figure 2: An imagebased GenAI model,
+Midjourney’s response to
+the prompt —
+“Businessman in Tokyo
+amidst rush hour, his
+gaze fixed ahead,
+surrounded by a sea of
+black umbrellas.”
+Figure 3: Based on a code-based GenAI model, OpenAI Codex,
+Github Copilot is a commercial tool that can generate functional
+code from specifications given as natural language. Reportedly, as
+of June 2023, it served over a million users.
+Karan Singh, Assistant Professor of Operations Research
+
+
